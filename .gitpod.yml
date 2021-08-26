@@ -6,6 +6,9 @@ tasks :
   - name : install node modules and run server
     init : npm install # runs during prebuild
     command : npm run dev
+    
+image:
+  file: .gitpod.Dockerfile
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
