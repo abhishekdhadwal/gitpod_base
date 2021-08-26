@@ -14,5 +14,4 @@ image:
 ports:
   - port: 3000
     onOpen: open-preview
-  - port : 27017
-    onOpen: open-preview
+
