@@ -8,7 +8,7 @@ if(process.env.NODE_ENV == 'local') {
       
       db_config = {
             PORT : process.env.SERVER_PORT_DEV,
-            URI : 'mongodb://mongodb:27017/test_db'    
+            URI : 'mongodb://localhost:27017/test_db'    
       }
 
 } 
@@ -16,7 +16,7 @@ else if(process.env.NODE_ENV == 'server') {
 
       db_config = {
             PORT : process.env.SERVER_PORT_PROD,
-            URI : 'mongodb://mongodb:27017/test_db'    
+            URI : 'mongodb://localhost:27017/test_db'    
       }
 
 }
