@@ -4,7 +4,7 @@
   "description": "base project with hapi framework and typescript",
   "main": "server.ts",
   "scripts": {
-    "start": "ts-node server.ts",
+    "dev": "ts-node server.ts",
     "build": "tsc --build && cp .env ./build/.env",
     "restart": "sudo rm -rf build && tsc --build && cp .env ./build/.env && pm2 restart all && pm2 logs"
   },
